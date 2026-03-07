@@ -30,3 +30,29 @@
 *.exe
 *.out
 *.app
+
+# --- Unreal / build outputs ---
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# VS / IDE
+.vs/
+.vscode/
+*.sln
+*.VC.db
+*.VC.opendb
+*.user
+*.suo
+
+# Build artifacts
+*.exe
+*.dll
+*.lib
+*.pdb
+*.obj
+*.pch
+
+# UE shader / derived
+*.u-shader-bytecode
